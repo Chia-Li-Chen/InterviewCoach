@@ -3,6 +3,7 @@ import axios from 'axios';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import coach from '../components/coach.png';
 import * as Speech from 'expo-speech';
+import MenuButton from '../components/MenuButton';
 // import * as Permissions  from "expo-permissions";
 // import { Audio } from 'expo-av';
 
@@ -88,6 +89,8 @@ class InSession extends React.Component {
             <View
                 style={styles.container}
             >
+                <MenuButton navigation={this.props.navigation}
+                />
                 <Text
                     style={styles.title}>
                     INTERVIEW SESSION

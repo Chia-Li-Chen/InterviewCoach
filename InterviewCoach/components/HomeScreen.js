@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import logo from '../components/logo.png';
+
 export default class HomeScreen extends React.Component {
   render() {
     return (
